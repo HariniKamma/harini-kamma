@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  img{
+    width: 130px;
+    height: 130px;
+  }  
+  .navi {
+background: peru;
+overflow:hidden;
+
+}
+.navi a{
+text-align: center;
+color: black;
+display:block;
+padding: 5px 15px;
+text-decoration: none;
+
+}
+.navi ul {
+display:flex;
+justify-content:space-around;
+}
+.navi li {
+display:inline;
+}
+
+
+
+.navi li:hover {
+border-radius: 30px;
+border:none;
+padding: 7px;
+background-color: blanchedalmond;
+box-shadow:0px 0px 10px 0px bisque;
+}
+.vid video{
+margin: 34px;
+box-shadow:0px 0px 10px 5px bisque;
+}
+.colo{
+background-color:burlywood;
+}
+.images{
+margin: 34px;
+}
+.one{
+width: 350px;
+height: 250px;
+border-radius: 5px;
+}
+
+</style>
+</head>
+<body >
+<div class="container">
+    <div class="img">
+       <img src="ngologo.jpg" alt="logo">
+   </div>
+   <div class="text">
+     <h1><i>Videos</i></h1>
+   </div>
+</div>
+
+
+<div class="colo">
+<div class="vid">
+    <video width="300" height="240" controls>
+        <source src="vid2.mp4" type="video/mp4">
+      </video>
+      <video width="300" height="240" controls>
+        <source src="vid1.mp4" type="video/mp4">
+      </video>
+      <video width="300" height="240" controls>
+        <source src="vid3.mp4" type="video/mp4">
+      </video>
+      <video width="300" height="240" controls>
+        <source src="vid4.mp4" type="video/mp4">
+      </video>
+      <video width="300" height="240" controls>
+        <source src="vid5.mp4" type="video/mp4">
+      </video>
+      <video width="300" height="240" controls>
+        <source src="vid6.mp4" type="video/mp4">
+      </video>
+      
+      
+</div>
+</div>
+
+    
+        
+
+
+    
+</body>
+</html>
